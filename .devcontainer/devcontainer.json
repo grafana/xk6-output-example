@@ -20,12 +20,14 @@
     "ghcr.io/szkiba/devcontainer-features/govulncheck:1": {
       "version": "1.1.4"
     },
-    "ghcr.io/grafana/devcontainer-features/xk6:1": { "version": "0.19.2" }
+    "ghcr.io/grafana/devcontainer-features/xk6:1": { "version": "0.20.1" }
   },
 
   "remoteEnv": {
     "GH_TOKEN": "${localEnv:GH_TOKEN}",
     "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
     "XK6_EARLY_ACCESS": "true"
-  }
+  },
+
+  "onCreateCommand": "xk6 adjust --dev-container"
 }
