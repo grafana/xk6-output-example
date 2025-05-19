@@ -29,5 +29,5 @@
     "XK6_EARLY_ACCESS": "true"
   },
 
-  "onCreateCommand": "xk6 adjust --dev-container"
+  "postStartCommand": "xk6 adjust --dev-container"
 }
