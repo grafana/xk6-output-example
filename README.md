@@ -38,31 +38,7 @@ Building a custom k6 binary with the `xk6-output-example` extension is necessary
 
 ## Build
 
-The recommended way to build a custom k6 binary with the `xk6-output-example` extension is by using the provided Docker image for the [xk6](https://github.com/grafana/xk6) tool.
-
-Linux
-
-```shell
-docker run --rm -it -u "$(id -u):$(id -g)" -v "${PWD}:/xk6" grafana/xk6 build --with github.com/grafana/xk6-output-example
-```
-
-macOS
-
-```shell
-docker run --rm -it -u "$(id -u):$(id -g)" -v "${PWD}:/xk6" grafana/xk6 build --os darwin --with github.com/grafana/xk6-output-example
-```
-
-Windows (PowerShell)
-
-```shell
-docker run --rm -it -u "$(id -u):$(id -g)" -v "${PWD}:/xk6" grafana/xk6 build --os windows --with github.com/grafana/xk6-output-example --output k6.exe
-```
-
-Windows (cmd.exe)
-
-```
-docker run --rm -it -v "%cd%:/xk6" grafana/xk6 build --os windows --with github.com/grafana/xk6-output-example --output k6.exe
-```
+Use the [xk6](https://github.com/grafana/xk6) tool to build a custom k6 binary with the `xk6-output-example` extension. Refer to the [xk6 documentation](https://github.com/grafana/xk6) for more information.
 
 ## Contribute
 
