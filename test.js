@@ -1,5 +1,5 @@
 import { Trend } from 'k6/metrics';
-import { check, sleep } from 'k6';
+import { sleep } from 'k6';
 
 export let options = {
   thresholds: {
