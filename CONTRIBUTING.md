@@ -117,13 +117,15 @@ govulncheck ./...
 
 ### lint - Run the linter
 
-Use the [golangci-lint] tool for static code analysis. It is recommended to run this tool before committing changes.
+Use the [golangci-lint] tool for static code analysis. It is recommended to run this tool before committing changes. Use the [xk6] `lint` subcommand for k6 extension specific analysis.
 
 ```bash
 golangci-lint run ./...
+xk6 lint
 ```
 
 [lint]: #lint---run-the-linter
+[xk6]: https://github.com/grafana/xk6
 [golangci-lint]: https://github.com/golangci/golangci-lint
 
 ### test - Run the tests
