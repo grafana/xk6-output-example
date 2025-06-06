@@ -79,6 +79,17 @@ To create a local development environment, you need an IDE that supports [Develo
     xk6 run -- --out quickstart script.js
     ```
 
+## Starter
+
+The repository demonstrates how Go and JavaScript interact, serving as a valuable learning resource. You won't need these files when building a new extension.
+
+You can use the `.starter.patch` file with the `git apply` command to delete these files.
+
+```bash
+git apply .starter.patch
+rm .starter.patch
+```
+
 ## Download
 
 Building a custom k6 binary with the `xk6-output-example` extension is necessary for its use. You can download pre-built k6 binaries from the [Releases page](https://github.com/grafana/xk6-output-example/releases/).
