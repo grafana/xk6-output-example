@@ -81,7 +81,7 @@ To create a local development environment, you need an IDE that supports [Develo
 
 ## Starter
 
-The repository demonstrates how Go and JavaScript interact, serving as a valuable learning resource. You won't need these files when building a new extension.
+The repository demonstrates how to handle metrics. These files are useful as a learning resource, but are not needed when creating a new extension.
 
 You can use the `.starter.patch` file with the `git apply` command to delete these files.
 
