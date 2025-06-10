@@ -17,4 +17,4 @@ jobs:
       os: '["linux", "windows", "darwin"]'
       arch: '["amd64", "arm64"]'
       k6-version: "v1.0.0"
-      xk6-version: "0.20.1"
+      xk6-version: "1.0.0"
