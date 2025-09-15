@@ -3,7 +3,7 @@ module github.com/grafana/xk6-output-example
 go 1.24.0
 
 require (
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	go.k6.io/k6 v1.2.3
 )
 
