@@ -1,8 +1,6 @@
 module github.com/grafana/xk6-output-example
 
-go 1.25.0
-
-toolchain go1.25.10
+go 1.25.11
 
 require (
 	github.com/stretchr/testify v1.11.1
